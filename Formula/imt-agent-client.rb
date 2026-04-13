@@ -1,4 +1,4 @@
-class IMTAgentClient < Formula
+class ImtAgentClient < Formula
   desc "Remote management software for IMT Engineers"
   homepage ""
   url "https://mop-agent-releases.s3.us-west-2.amazonaws.com/homebrew/prerelease/imt-agent-client-2026.4.9.1.tar.gz"
