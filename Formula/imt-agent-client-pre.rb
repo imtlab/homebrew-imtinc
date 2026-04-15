@@ -22,5 +22,5 @@ class ImtAgentClientPre < Formula
 
   def post_install
     system "brew", "services", "restart", "imt-agent-client-pre"
-  
+  end  
 end 
