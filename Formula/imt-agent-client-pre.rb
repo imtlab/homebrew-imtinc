@@ -20,8 +20,4 @@ class ImtAgentClientPre < Formula
     keep_alive true
     environment_variables PATH: std_service_path_env
   end
-
-  def post_install
-    system "brew", "services", "restart", "imt-agent-client-pre"
-  end  
 end 
