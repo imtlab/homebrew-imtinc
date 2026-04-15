@@ -1,8 +1,8 @@
 class ImtAgentClientPre < Formula
   desc "Prerelease version of the remote management software for IMT Engineers"
   homepage ""
-  url "https://mop-agent-releases.s3.us-west-2.amazonaws.com/homebrew/prerelease/imt-agent-client_2026.4.14.5.tar.gz"
-  sha256 "388e6b23fd519c73db84a3fccfb95d0a44adffd440a7c0aae29b3e7abcb48ed1"
+  url "https://mop-agent-releases.s3.us-west-2.amazonaws.com/homebrew/prerelease/imt-agent-client_2026.4.15.1.tar.gz"
+  sha256 "b9ed881de37c2359fb4656c74efd6980f414f25f292feadcba787aaaef8e89d5"
 
   def install
     prefix.install Dir["*"]
@@ -18,6 +18,7 @@ class ImtAgentClientPre < Formula
     run opt_prefix/"AgentClient"
     run_type :immediate
     keep_alive true
+    environment_variables PATH: std_service_path_env
   end
 
   def post_install
