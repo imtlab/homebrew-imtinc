@@ -18,7 +18,7 @@ class ImtAgentClientPre < Formula
     run opt_prefix/"AgentClient"
     run_type :immediate
     keep_alive true
-    environment_variables PATH: (std_service_path_env":/usr/local/bin"
+    environment_variables PATH: (std_service_path_env":/usr/local/bin")
     require_root true
   end
 end 
