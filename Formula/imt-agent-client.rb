@@ -1,7 +1,7 @@
 class ImtAgentClientPre < Formula
-  desc "Prerelease version of the remote management software for IMT Engineers"
+  desc "Stable version of the remote management software for IMT Engineers"
   homepage ""
-  url "https://mop-agent-releases.s3.us-west-2.amazonaws.com/homebrew/prerelease/imt-agent-client_2026.4.28.1.tar.gz"
+  url "https://mop-agent-releases.s3.us-west-2.amazonaws.com/homebrew/stable/imt-agent-client_2026.4.28.1.tar.gz"
   sha256 "5cbbce29f6bdf250838a47ff8281c89e3292cd44a97413be4a5881fd61cc5a2b"
 
   def install
