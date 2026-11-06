@@ -1,8 +1,8 @@
 class ImtAgentClient < Formula
   desc "Stable version of the remote management software for IMT Engineers"
   homepage ""
-  url "https://mop-agent-releases.s3.us-west-2.amazonaws.com/homebrew/stable/imt-agent-client_2026.4.28.1.tar.gz"
-  sha256 "5cbbce29f6bdf250838a47ff8281c89e3292cd44a97413be4a5881fd61cc5a2b"
+  url "https://mop-agent-releases.s3.us-west-2.amazonaws.com/homebrew/stable/imt-agent-client_2026.11.6.2.tar.gz"
+  sha256 "b4afd4377d423830f884060b0b84ef561be5f62af03c780865e19c6f03bc2bf4"
 
   def install
     prefix.install Dir["*"]
